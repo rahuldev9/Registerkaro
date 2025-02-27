@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: "linear-gradient(135deg, #d6bbd6, #d9cae4, #e4e3ea,#c4c6dc,#9ea9c1)";
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+body{
+  font-family: 'Inter', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+h1{
+  color: black;
+}
+p{
+  color: black;
+}
+
+/* styles.css */
+.shadow-box {
+  border-radius: 3%;
+  width: 350px;
+  margin-top: 30px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.companyimage{
+  margin: 10px;
+  height: 40px;
+  width: 200px;
+}
+.div-content{
+ 
+  height: 300px;
+  width: 400px;
+  margin: 1px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.div-contents{
+  
+  height:215px;
+  width: 285px;
+  margin: 1px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-client{
+ 
+  height: 550px;
+  width: 400px;
+  margin: 1px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.div-cont{
+  background-color:#FFFFFF;
+  height:315px;
+  width: 385px;
+  margin: 1px;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.faq-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.faq-list {
+  border-top: 1px solid #ccc;
+  text-align: left;
+  
+}
+
+.faq-item {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.faq-item:hover {
+  background-color: #f9f9f9;
+}
+
+.show-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #1C4670;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.show-more:hover {
+  background-color: #0056b3;
+}
